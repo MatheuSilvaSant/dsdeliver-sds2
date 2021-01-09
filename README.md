@@ -17,7 +17,7 @@ Descrição do projeto
 ![Web 2](https://github.com/MatheuSilvaSant/sds2-images/blob/main/assets/order.png)
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+![Modelo Conceitual]
 
 # Tecnologias utilizadas
 ## Back end
