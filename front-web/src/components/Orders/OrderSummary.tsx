@@ -24,6 +24,7 @@ const OrderSummary: React.FC<Props> = ({amount, totalPrice, onSubmit}: Props) =>
                 <button
                     className="order-summary-make-order"
                     onClick={onSubmit}
+                    
                     >
                     FAZER PEDIDO
                 </button>
