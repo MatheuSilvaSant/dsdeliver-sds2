@@ -1,13 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
+import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
+import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
+import { useNavigation } from '@react-navigation/native';
 
 export default function Header() {
+  
+  const navigation = useNavigation();
+
+  const handlerOnpress =  () =>{
+      navigation.navigate('Home')
+  }
+  
   return (
-    <View style={styles.container}>
-      <Image source={require('../../../assets/logo.png')}/>
-      <Text style={styles.text}>DS Delivery</Text>
-    </View>
+    <TouchableWithoutFeedback onPress={handlerOnpress}>
+      <View style={styles.container}>
+        <Image source={require('../../../assets/logo.png')}/>
+        <Text style={styles.text}>DS Delivery</Text>
+      </View>
+    </TouchableWithoutFeedback>
   );
 }
 
