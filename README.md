@@ -69,6 +69,8 @@ npm install
 # executar o projeto
 npm start
 ```
+## APK:
+https://expo.io/artifacts/194d4a47-9e26-4bdf-bec6-f6d8ce4542f5
 
 # Autor
 
